@@ -9,48 +9,80 @@
 </head>
 <body>
     <header>
-        <h1>Convert Markdown challenge to html</h1>
-        <h1>Cédric Wietkin</h1>
+        <div class="h1-1">Convert Markdown challenge to html</div>
+        <div class="line"></div>
+        <div class="h1-2">Cédric Wietkin</div>
+        <div class="line"></div>
     </header>
-    <main>
-        <p style ="font-style: italic;">ce qui ne nous tue pas nous rend plus fort</p>
-        <table>
-            <tr>
-              <td>My Birthday date</td>
-              <td>Favorite Color</td>
-              <td>Favorite Food</td>
-            </tr>
-              <tr>
-                    <td>29/09/1988</td>
-                    <td>Blue navy</td>
-                    <td>Sushi-Asian Food</td>
-              </tr>
-              </table>
-              <section>
-                <h2>Hobbies</h2>
+        <main>
+            <div class="slogan">
+            <p>ce qui ne nous tue pas nous rend plus fort!</p>
+            </div>
+            <div class="table">
+                <div class="table-row">
+                  <div class="table-cell">My Birthday date</div>
+                  <div class="table-cell">Favorite Color</div>
+                  <div class="table-cell">Favorite Food</div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell">29/09/1988</div>
+                  <div class="table-cell">Blue navy</div>
+                  <div class="table-cell">Sushi-Asian</div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell">Pinneapple on pizza</div>
+                  <div class="table-cell checkbox-cell">
+                    <label>
+                        <input type="checkbox" name="checkbox" value="yes" />
+                          Yes
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkbox" value="nonono" />
+                          NONONO
+                    </label>
+                  </div>
+                </div>  
+            </div>
+            <div class="line"></div>
+    <div class="section">
+        <h2>Hobbies</h2>
+        <div class="line"></div>
+            <div class="a">
                 <ul>
-                    <li>Basket-ball</li>
-                    <li>Bricolage</li>
+                    <li>Basket-ball</li><br>
+                    <li>Bricolage</li><br>
                     <li>Randonnée<ul><li>Vtt</li><li>Pédestre</li><li>Bivouac</li></ul></li>
-                    </ul>
-              </section>
-              <section>
-                <h2>Short story</h2>
-                <p style ="font-style: italic;">*Lors de mes dernières vacances, alors que nous avions le all-in, le personnel allai cherher du coca au magasin d'en face lorsque nous avions soif.*</p>
-                <h2>Le Socialisateur</h2>
-                <p style="font-style: italic;">Le terme « socialisateur » désigne un agent, une action ou un contexte qui favorise le développement des compétences sociales et relationnelles d'un individu. Cela peut être une personne, un groupe, un lieu ou une activité permettant l'interaction et la communication entre les membres d'une société.
+                </ul>
+            </div>    
+    </div>
+    <section>
+        <div class="line"></div>
+        <h2 class="short-story">Short Story</h2>
+        <div class="line"></div>
+        <text class="text">
+            <p>Lors de mes dernières vacances,<br>
+            Alors que nous avions le all-in,<br> le personnel allait cherher du coca au magasin d'en face lorsque nous avions soif.</p>
+        </text>    
+            <div class="line"></div>
+        <h2 class="h2-1">Le Socialisateur</h2>   
+            <div class="line"></div>
+        <div class="def">    
+            <p>Le terme « socialisateur » désigne un agent, une action ou un contexte qui favorise le développement des compétences sociales et relationnelles d'un individu. Cela peut être une personne, un groupe, un lieu ou une activité permettant l'interaction et la communication entre les membres d'une société.
                     Les socialisateurs contribuent à l'épanouissement personnel et collectif en aidant chacun à s'adapter aux normes et valeurs du groupe, ainsi qu'à se sentir intégré et accepté parmi ses pairs. Ils jouent un rôle clé dans le processus de socialisation tout au long de la vie.
                     </p>
-            </section>
-    </main>
+        </div>
+        <div class="line"></div>
+    </section>
+        </main>
     <footer>
-        <table>
-            <tr>
-              <td><a href="https://github.com/cmarchong" target="_blank"><button>Camille</button></a></td>
-              <td><a href="https://github.com/cedricwietkin" target="_blank"><button>Cédric</button></a></td>
-              <td><a href="https://github.com/clamaha" target="_blank"><button>Clara</button></a></td>
+        <table class="lien-github">
+            <tr class="git">
+              <td class="camille"><a href="https://github.com/cmarchong" target="_blank"><button>camille</button></a></td>
+              <td class="cedric"><a href="https://github.com/cedricwietkin" target="_blank"><button>Cédric</button></a></td>
+              <td class="clara"><a href="https://github.com/clamaha" target="_blank"><button>Clara</button></a></td>
             </tr>
-          </table>
+        </table>
     </footer>
 </body>
+<script src="firstjs.js"></script>
 </html>

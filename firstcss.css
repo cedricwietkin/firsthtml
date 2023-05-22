@@ -1,4 +1,160 @@
-table,
-td {
-    border: 1px solid #333;
+body{
+    background-color: blue;
+    height: 1440px;
+    width: 1280px;
+
+}
+main{
+    background-color: blue;
+    height: 1040px;
+    width: 1280px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+header{
+    background-color: blue;
+    height: 150px;
+    width: 1280px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.h1-1{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: aquamarine;
+}
+.h1-2{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: bold;
+    color: aquamarine;
+}
+.slogan{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: aquamarine;
+
+}
+.table {
+    display: table;
+  }
+  
+.table-row {
+    display: table-row;
+
+  }
+  
+.table-cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: aquamarine;
+  }
+@keyframes checkboxAnimation {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+.checkbox-cell input[type="checkbox"] {
+    display:block ;
+  }
+  
+.checkbox-cell label {
+    cursor:auto;
+    display:grid;
+    padding: 5px 10px;
+    border-style: double;
+  }
+  
+.checkbox-cell input[type="checkbox"]:checked + label {
+    animation: checkboxAnimation 0.5s ease-in-out;
+  }
+h2{
+    color: aquamarine;
+  }
+.line{
+    border-bottom: 2px solid;
+    margin: 20px 5px;
+    flex-grow: 1;
+    color: aquamarine;
+}
+.a{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+.short-story{
+    color: aquamarine;
+    font-size: 30px;
+}
+.text{
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding-inline: 3px;
+    color: aquamarine;
+}
+.h2-1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:30px ;
+
+}
+.def{
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding-inline: 3px;
+    color: aquamarine;
+}
+footer{
+    height: 400px;
+    width: 1280px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.lien-github{
+    display: table;
+    border: 20px solid;
+    border-radius: 10px;
+    background url("");
+}
+.git{
+    display: flex;
+}
+.camille{
+    border: 20px solid;
+}
+.cedric{
+    border: 20px solid;
+}
+.clara{
+    border: 20px solid;
+}
+button{
+    border-radius: 5px;
+    border: solid;
+    border-style: double;
+    background-color: blue;
+    color: aquamarine;
 }

@@ -1,0 +1,38 @@
+.table {
+    display: table;
+  }
+  
+  .table-row {
+    display: table-row;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  @keyframes checkboxAnimation {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .checkbox-cell input[type="checkbox"] {
+    display:block;
+  }
+  
+  .checkbox-cell label {
+    cursor:auto;
+    display:grid;
+    padding: 5px 10px;
+  }
+  
+  .checkbox-cell input[type="checkbox"]:checked + label {
+    animation: checkboxAnimation 0.5s ease-in-out;
+  }
