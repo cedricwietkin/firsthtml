@@ -134,10 +134,15 @@ footer{
     margin-top: 100px;
 }
 .lien-github{
-    display: table;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 300px;
     border: 20px solid;
     border-radius: 10px;
-    background url("");
+    background-color: blue;
+    color: aquamarine;
 }
 .git{
     display: flex;
